@@ -7,8 +7,10 @@ public class Main {
         shark.attack();
         turtle.swim();
         eagle.fly();
-        for (Animal animal : animals) {
-            System.out.println(animal);
+        for (Animal shark1 : animals) {
+            if(shark instanceof Shark){
+                shark.attack();
+            }
         }
     }
 }
